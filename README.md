@@ -15,7 +15,7 @@
 
 This repository contains a sample Microsoft Windows C++ console application integrated with [BugSplat](https://bugsplat.com). The sample project demonstrates how to link with BugSplat.lib, copy BugSplat assets to the build directory, and run SendPdbs to upload symbol files to BugSplat for function name and line number calculation.
 
-More information about BugSplat's Windows Native C++ SDK can be found on in our docs.
+More information about BugSplat's Windows Native C++ SDK can be found on in our [docs](https://docs.bugsplat.com/introduction/getting-started/integrations/desktop/cplusplus/).
 
 ### Steps
 
