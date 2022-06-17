@@ -1,0 +1,3 @@
+[submodule "BugSplat"]
+	path = BugSplat
+	url = https://github.com/BugSplat-Git/release

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="myConsoleCrasher.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="myConsoleCrasher.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BugSplat">
+      <UniqueIdentifier>{fb318b88-4b78-4805-8fcf-2b64c1814a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BugSplat\bin">
+      <UniqueIdentifier>{d1ea838f-df99-4333-a764-0d1d7df6b42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BugSplat\bin64">
+      <UniqueIdentifier>{2c73a77b-e54a-4c44-9d41-c6626b7f4fa3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin\BsSndRpt.exe">
+      <Filter>BugSplat\bin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin\BugSplat.dll">
+      <Filter>BugSplat\bin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin\BugSplatHD.exe">
+      <Filter>BugSplat\bin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin\BugSplatRc.dll">
+      <Filter>BugSplat\bin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin64\BsSndRpt64.exe">
+      <Filter>BugSplat\bin64</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin64\BugSplat64.dll">
+      <Filter>BugSplat\bin64</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin64\BugSplatHD64.exe">
+      <Filter>BugSplat\bin64</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin64\BugSplatRc64.dll">
+      <Filter>BugSplat\bin64</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin\BugSplat.pdb">
+      <Filter>BugSplat\bin</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="BugSplat\BugSplatNative\bin64\BugSplat64.pdb">
+      <Filter>BugSplat\bin64</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>
