@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by myConsoleCrasher.rc
+// Used by MyWindowsNativeCrasher.rc
 
 // Next default values for new objects
 // 

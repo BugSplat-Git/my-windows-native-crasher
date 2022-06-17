@@ -70,10 +70,10 @@ BEGIN
             VALUE "CompanyName", "BugSplat"
             VALUE "FileDescription", "Sample demonstrating crash reporting with BugSplat's Native Windows C++ SDK"
             VALUE "FileVersion", "1.0.0.2"
-            VALUE "InternalName", "myConsoleCrasher.exe"
+            VALUE "InternalName", "MyWindowsNativeCrasher.exe"
             VALUE "LegalCopyright", "Copyright (C) 2022"
-            VALUE "OriginalFilename", "myConsoleCrasher.exe"
-            VALUE "ProductName", "myConsoleCrasher"
+            VALUE "OriginalFilename", "MyWindowsNativeCrasher.exe"
+            VALUE "ProductName", "MyWindowsNativeCrasher"
             VALUE "ProductVersion", "1.0.0.2"
         END
     END
